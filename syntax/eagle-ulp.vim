@@ -8,6 +8,7 @@
 " Syntax highlighting like in the EAGLE ulp 
 
 syn region ULPLineComment start=+//+ end=+$+
+syntax region ULPComment start=+/\*+ end=+\*/+
 
 syn keyword eagleULPConstant BIN
 syn keyword stdCLikeFunc printf sprintf sort strsplit strrchr strsub strjoin strstr strlen argv strlwr strtod
@@ -18,6 +19,7 @@ syn keyword eagleULPType string int char numeric void
 syn keyword eagleULPModule enum
 
 hi def link ULPLineComment Comment
+hi def link ULPComment Comment
 hi def link eagleULPType Type
 hi def link eagleULPConstant Constant
 hi def link stdCLikeFunc Function
