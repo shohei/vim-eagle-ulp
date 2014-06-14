@@ -1,7 +1,7 @@
 vim-eagle-ulp
 ==================
 
-Vim syntax highlight plugin for EAGLE ulp
+Vim syntax highlight plugin for EAGLE ULP (User language program)
 
 Installation
 ============
