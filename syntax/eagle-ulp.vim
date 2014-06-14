@@ -10,9 +10,10 @@
 syn region ULPLineComment start=+//+ end=+$+
 
 syn keyword eagleULPConstant BIN
-syn keyword stdCLikeFunc printf sprintf sort strsplit strrchr strsub strjoin strstr strlen
-syn keyword eagleULPFunc dlgMessageBox dlgHBoxLayout dlgRadioButton dlgStretch dlgGroup dlgPushButton dlgLabel dlgIntEdit dlgSpacing dlgDialog
-syn keyword stdCLikeControl output for if while break switch exit return
+syn keyword stdCLikeFunc printf sprintf sort strsplit strrchr strsub strjoin strstr strlen argv strlwr strtod
+syn keyword eagleULPFunc dlgMessageBox dlgHBoxLayout dlgRadioButton dlgStretch dlgGroup dlgPushButton dlgLabel dlgIntEdit dlgSpacing dlgDialog dlgVBoxLayout dlgComboBox dlgCheckBox
+syn keyword stdCLikeControl for if while switch else
+syn keyword stdCLikeMethod output break exit return 
 syn keyword eagleULPType string int char numeric void
 syn keyword eagleULPModule enum
 
@@ -22,4 +23,5 @@ hi def link eagleULPConstant Constant
 hi def link stdCLikeFunc Function
 hi def link eagleULPFunc Function
 hi def link stdCLikeControl Function
+hi def link stdCLikeMethod Function
 hi def link eagleULPModule Identifier
