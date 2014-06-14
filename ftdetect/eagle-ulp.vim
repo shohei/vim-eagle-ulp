@@ -1,1 +1,1 @@
-au BufRead,BufNewFile *.ulp set filetype=EAGLE ulp
+au BufRead,BufNewFile *.ulp set filetype=EAGLE-ULP

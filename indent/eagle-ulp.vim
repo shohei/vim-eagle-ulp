@@ -1,5 +1,5 @@
 " Vim indent file
-" Language: EAGLE ulp	
+" Language: EAGLE-ULP
 " Maintainer:	Shohei Aoki <shoaok@gmail.com>
 " Last Change:	2014 Jun14 
 
