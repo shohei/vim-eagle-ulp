@@ -3,6 +3,8 @@ vim-eagle-ulp
 
 Vim syntax highlight plugin for EAGLE ULP (User language program)
 
+http://www.cadsoftusa.com/
+
 Installation
 ============
 
