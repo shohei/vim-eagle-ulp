@@ -13,7 +13,7 @@ syntax region ULPString start=+"+ end=+"+
 
 syn keyword eagleULPConstant PAD_SHAPE_SQUARE PAD_SHAPE_ROUND PAD_SHAPE_OCTAGON PAD_SHAPE_LONG PAD_SHAPE_OFFSET PAD_SHAPE_ANNULUS PAD_SHAPE_THERMAL
 syn keyword stdCLikeFunc printf sprintf sort strsplit strrchr strsub strjoin strstr strlen argv strlwr strtod
-syn keyword eagleULPFunc dlgMessageBox dlgHBoxLayout dlgRadioButton dlgStretch dlgGroup dlgPushButton dlgLabel dlgIntEdit dlgSpacing dlgDialog dlgVBoxLayout dlgComboBox dlgCheckBox board sch
+syn keyword eagleULPFunc dlgMessageBox dlgHBoxLayout dlgRadioButton dlgStretch dlgGroup dlgPushButton dlgLabel dlgIntEdit dlgSpacing dlgDialog dlgVBoxLayout dlgComboBox dlgCheckBox board sch dlgTextView dlgTextEdit
 syn keyword stdCLikeControl for if while switch else
 syn keyword stdCLikeMethod output break exit return 
 syn keyword eagleULPType string int char numeric void real
